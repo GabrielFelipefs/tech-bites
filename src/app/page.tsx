@@ -74,7 +74,7 @@ export default function Home() {
     if (!endereco) return alert("Por favor, informe o endereço!");
     const itens = carrinho.map(i => `- ${i.nome}`).join('\n');
     const msg = encodeURIComponent(`*NOVO PEDIDO*\n\n${itens}\n\n*Total:* R$ ${valorTotal},00\n*Endereço:* ${endereco}`);
-    window.open(`https://wa.me/5511999999999?text=${msg}`);
+    window.open(`https://wa.me/5582991143101?text=${msg}`);
   };
 
   if (!carregado) return <div className="min-h-screen bg-white" />;
